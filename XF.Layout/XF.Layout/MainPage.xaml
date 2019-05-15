@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF.Layout"
+             x:Class="XF.Layout.MainPage">
+
+    <StackLayout>
+        <Label Text="Layouts Simples"></Label>
+        <Button Text="Stack Layout" Clicked="ButtonStackClicked"></Button>
+        <Label Text="Absolute Layout"></Label>
+        <Button Text="Absolute Layout" Clicked="ButtonAbsoluteClicked"></Button>
+        <Label Text="Layouts Complicados"></Label>
+        <Button Text="Layouts Complicados" Clicked="ButtonRelativeClicked"></Button>
+        <Label Text="Layouts Grid"></Label>
+        <Button Text="Layouts Grid" Clicked="Button_Clicked"></Button>
+        <Label Text="Calculadora"></Label>
+        <Button Text="Calculadora" Clicked="Button_Clicked_1"></Button>
+        <Label Text="FLEXLAYOUT"></Label>
+        <Button Text="FLEXLAYOUT" Clicked="Button_Clicked_2"></Button>
+               
+
+    </StackLayout>
+
+</ContentPage>

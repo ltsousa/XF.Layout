@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF.Layout.Views.Grid">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid Padding="32" RowSpacing="32" ColumnSpacing="32">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100" />
+                    <RowDefinition Height="100" />
+                    <RowDefinition Height="100" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <BoxView Grid.Row="0" Grid.Column="0" Color="#FFF25022" />
+                <BoxView Grid.Row="0" Grid.Column="1" Color="#FF7FBA00" />
+                <BoxView Grid.Row="1" Grid.Column="0" Color="#FF01A4EF" />
+                <BoxView Grid.Row="1" Grid.Column="1" Color="#FFFFB901" />
+                <BoxView Grid.Row="2" Grid.Column="0" Color="#FFF25022" />
+                <BoxView Grid.Row="2" Grid.Column="1" Color="#FF01A4EF" />
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
